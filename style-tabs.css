@@ -1,0 +1,13 @@
+.tab-list li{
+    display: inline-block;
+    border: solid 1px black;
+    border-radius:12px 12px  0 0;
+    padding:6px;
+}
+.tab-list li a {
+    text-decoration: none;
+}
+
+.tab-list li a:focus{
+    background-color:red;
+}
